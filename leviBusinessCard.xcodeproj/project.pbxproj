@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9AF69BC295AD6FD00F18796 /* leviBusinessCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF69BB295AD6FD00F18796 /* leviBusinessCardApp.swift */; };
+		A9AF69BE295AD6FD00F18796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF69BD295AD6FD00F18796 /* ContentView.swift */; };
+		A9AF69C0295AD6FE00F18796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69BF295AD6FE00F18796 /* Assets.xcassets */; };
+		A9AF69C3295AD6FE00F18796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69C2295AD6FE00F18796 /* Preview Assets.xcassets */; };
+		A9AF69CD295AD6FE00F18796 /* leviBusinessCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF69CC295AD6FE00F18796 /* leviBusinessCardTests.swift */; };
+		A9AF69D7295AD6FE00F18796 /* leviBusinessCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF69D6295AD6FE00F18796 /* leviBusinessCardUITests.swift */; };
+		A9AF69D9295AD6FE00F18796 /* leviBusinessCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF69D8295AD6FE00F18796 /* leviBusinessCardUITestsLaunchTests.swift */; };
+		A9AF69E6295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69E5295AE3AE00F18796 /* Pacifico-Regular.ttf */; };
+		A9AF69E7295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69E5295AE3AE00F18796 /* Pacifico-Regular.ttf */; };
+		A9AF69E8295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69E5295AE3AE00F18796 /* Pacifico-Regular.ttf */; };
+		A9AF69EB295AE40B00F18796 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69EA295AE40B00F18796 /* OFL.txt */; };
+		A9AF69EC295AE40B00F18796 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69EA295AE40B00F18796 /* OFL.txt */; };
+		A9AF69ED295AE40B00F18796 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69EA295AE40B00F18796 /* OFL.txt */; };
+		A9AF69F1295AF15300F18796 /* ChivoMono-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69EF295AF15300F18796 /* ChivoMono-Italic-VariableFont_wght.ttf */; };
+		A9AF69F2295AF15300F18796 /* ChivoMono-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AF69F0295AF15300F18796 /* ChivoMono-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9AF69C9295AD6FE00F18796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AF69B0295AD6FD00F18796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AF69B7295AD6FD00F18796;
+			remoteInfo = leviBusinessCard;
+		};
+		A9AF69D3295AD6FE00F18796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AF69B0295AD6FD00F18796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AF69B7295AD6FD00F18796;
+			remoteInfo = leviBusinessCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9AF69B8295AD6FD00F18796 /* leviBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leviBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AF69BB295AD6FD00F18796 /* leviBusinessCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leviBusinessCardApp.swift; sourceTree = "<group>"; };
+		A9AF69BD295AD6FD00F18796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9AF69BF295AD6FE00F18796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9AF69C2295AD6FE00F18796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9AF69C8295AD6FE00F18796 /* leviBusinessCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leviBusinessCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AF69CC295AD6FE00F18796 /* leviBusinessCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leviBusinessCardTests.swift; sourceTree = "<group>"; };
+		A9AF69D2295AD6FE00F18796 /* leviBusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leviBusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AF69D6295AD6FE00F18796 /* leviBusinessCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leviBusinessCardUITests.swift; sourceTree = "<group>"; };
+		A9AF69D8295AD6FE00F18796 /* leviBusinessCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leviBusinessCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9AF69E5295AE3AE00F18796 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "leviBusinessCard/fonts/Pacifico-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		A9AF69EA295AE40B00F18796 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = leviBusinessCard/fonts/OFL.txt; sourceTree = SOURCE_ROOT; };
+		A9AF69EE295AE53400F18796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9AF69EF295AF15300F18796 /* ChivoMono-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ChivoMono-Italic-VariableFont_wght.ttf"; path = "Chivo_Mono/ChivoMono-Italic-VariableFont_wght.ttf"; sourceTree = SOURCE_ROOT; };
+		A9AF69F0295AF15300F18796 /* ChivoMono-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ChivoMono-VariableFont_wght.ttf"; path = "Chivo_Mono/ChivoMono-VariableFont_wght.ttf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9AF69B5295AD6FD00F18796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69C5295AD6FE00F18796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69CF295AD6FE00F18796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9AF69AF295AD6FD00F18796 = {
+			isa = PBXGroup;
+			children = (
+				A9AF69BA295AD6FD00F18796 /* leviBusinessCard */,
+				A9AF69CB295AD6FE00F18796 /* leviBusinessCardTests */,
+				A9AF69D5295AD6FE00F18796 /* leviBusinessCardUITests */,
+				A9AF69B9295AD6FD00F18796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AF69B9295AD6FD00F18796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69B8295AD6FD00F18796 /* leviBusinessCard.app */,
+				A9AF69C8295AD6FE00F18796 /* leviBusinessCardTests.xctest */,
+				A9AF69D2295AD6FE00F18796 /* leviBusinessCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AF69BA295AD6FD00F18796 /* leviBusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69EE295AE53400F18796 /* Info.plist */,
+				A9AF69BB295AD6FD00F18796 /* leviBusinessCardApp.swift */,
+				A9AF69E9295AE3F500F18796 /* fonts */,
+				A9AF69EF295AF15300F18796 /* ChivoMono-Italic-VariableFont_wght.ttf */,
+				A9AF69F0295AF15300F18796 /* ChivoMono-VariableFont_wght.ttf */,
+				A9AF69BD295AD6FD00F18796 /* ContentView.swift */,
+				A9AF69BF295AD6FE00F18796 /* Assets.xcassets */,
+				A9AF69C1295AD6FE00F18796 /* Preview Content */,
+			);
+			path = leviBusinessCard;
+			sourceTree = "<group>";
+		};
+		A9AF69C1295AD6FE00F18796 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69C2295AD6FE00F18796 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9AF69CB295AD6FE00F18796 /* leviBusinessCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69CC295AD6FE00F18796 /* leviBusinessCardTests.swift */,
+			);
+			path = leviBusinessCardTests;
+			sourceTree = "<group>";
+		};
+		A9AF69D5295AD6FE00F18796 /* leviBusinessCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69D6295AD6FE00F18796 /* leviBusinessCardUITests.swift */,
+				A9AF69D8295AD6FE00F18796 /* leviBusinessCardUITestsLaunchTests.swift */,
+			);
+			path = leviBusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		A9AF69E9295AE3F500F18796 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF69EA295AE40B00F18796 /* OFL.txt */,
+				A9AF69E5295AE3AE00F18796 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9AF69B7295AD6FD00F18796 /* leviBusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AF69DC295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCard" */;
+			buildPhases = (
+				A9AF69B4295AD6FD00F18796 /* Sources */,
+				A9AF69B5295AD6FD00F18796 /* Frameworks */,
+				A9AF69B6295AD6FD00F18796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leviBusinessCard;
+			productName = leviBusinessCard;
+			productReference = A9AF69B8295AD6FD00F18796 /* leviBusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9AF69C7295AD6FE00F18796 /* leviBusinessCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AF69DF295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCardTests" */;
+			buildPhases = (
+				A9AF69C4295AD6FE00F18796 /* Sources */,
+				A9AF69C5295AD6FE00F18796 /* Frameworks */,
+				A9AF69C6295AD6FE00F18796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AF69CA295AD6FE00F18796 /* PBXTargetDependency */,
+			);
+			name = leviBusinessCardTests;
+			productName = leviBusinessCardTests;
+			productReference = A9AF69C8295AD6FE00F18796 /* leviBusinessCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9AF69D1295AD6FE00F18796 /* leviBusinessCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AF69E2295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCardUITests" */;
+			buildPhases = (
+				A9AF69CE295AD6FE00F18796 /* Sources */,
+				A9AF69CF295AD6FE00F18796 /* Frameworks */,
+				A9AF69D0295AD6FE00F18796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AF69D4295AD6FE00F18796 /* PBXTargetDependency */,
+			);
+			name = leviBusinessCardUITests;
+			productName = leviBusinessCardUITests;
+			productReference = A9AF69D2295AD6FE00F18796 /* leviBusinessCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AF69B0295AD6FD00F18796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A9AF69B7295AD6FD00F18796 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A9AF69C7295AD6FE00F18796 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A9AF69B7295AD6FD00F18796;
+					};
+					A9AF69D1295AD6FE00F18796 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A9AF69B7295AD6FD00F18796;
+					};
+				};
+			};
+			buildConfigurationList = A9AF69B3295AD6FD00F18796 /* Build configuration list for PBXProject "leviBusinessCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9AF69AF295AD6FD00F18796;
+			productRefGroup = A9AF69B9295AD6FD00F18796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9AF69B7295AD6FD00F18796 /* leviBusinessCard */,
+				A9AF69C7295AD6FE00F18796 /* leviBusinessCardTests */,
+				A9AF69D1295AD6FE00F18796 /* leviBusinessCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9AF69B6295AD6FD00F18796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69F2295AF15300F18796 /* ChivoMono-VariableFont_wght.ttf in Resources */,
+				A9AF69E6295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */,
+				A9AF69C3295AD6FE00F18796 /* Preview Assets.xcassets in Resources */,
+				A9AF69EB295AE40B00F18796 /* OFL.txt in Resources */,
+				A9AF69C0295AD6FE00F18796 /* Assets.xcassets in Resources */,
+				A9AF69F1295AF15300F18796 /* ChivoMono-Italic-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69C6295AD6FE00F18796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69EC295AE40B00F18796 /* OFL.txt in Resources */,
+				A9AF69E7295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69D0295AD6FE00F18796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69ED295AE40B00F18796 /* OFL.txt in Resources */,
+				A9AF69E8295AE3AE00F18796 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9AF69B4295AD6FD00F18796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69BE295AD6FD00F18796 /* ContentView.swift in Sources */,
+				A9AF69BC295AD6FD00F18796 /* leviBusinessCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69C4295AD6FE00F18796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69CD295AD6FE00F18796 /* leviBusinessCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AF69CE295AD6FE00F18796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF69D9295AD6FE00F18796 /* leviBusinessCardUITestsLaunchTests.swift in Sources */,
+				A9AF69D7295AD6FE00F18796 /* leviBusinessCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AF69CA295AD6FE00F18796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AF69B7295AD6FD00F18796 /* leviBusinessCard */;
+			targetProxy = A9AF69C9295AD6FE00F18796 /* PBXContainerItemProxy */;
+		};
+		A9AF69D4295AD6FE00F18796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AF69B7295AD6FD00F18796 /* leviBusinessCard */;
+			targetProxy = A9AF69D3295AD6FE00F18796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9AF69DA295AD6FE00F18796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9AF69DB295AD6FE00F18796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9AF69DD295AD6FE00F18796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leviBusinessCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leviBusinessCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9AF69DE295AD6FE00F18796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leviBusinessCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leviBusinessCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9AF69E0295AD6FE00F18796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leviBusinessCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/leviBusinessCard";
+			};
+			name = Debug;
+		};
+		A9AF69E1295AD6FE00F18796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leviBusinessCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/leviBusinessCard";
+			};
+			name = Release;
+		};
+		A9AF69E3295AD6FE00F18796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leviBusinessCard;
+			};
+			name = Debug;
+		};
+		A9AF69E4295AD6FE00F18796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levi.leviBusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leviBusinessCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AF69B3295AD6FD00F18796 /* Build configuration list for PBXProject "leviBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AF69DA295AD6FE00F18796 /* Debug */,
+				A9AF69DB295AD6FE00F18796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AF69DC295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AF69DD295AD6FE00F18796 /* Debug */,
+				A9AF69DE295AD6FE00F18796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AF69DF295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AF69E0295AD6FE00F18796 /* Debug */,
+				A9AF69E1295AD6FE00F18796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AF69E2295AD6FE00F18796 /* Build configuration list for PBXNativeTarget "leviBusinessCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AF69E3295AD6FE00F18796 /* Debug */,
+				A9AF69E4295AD6FE00F18796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AF69B0295AD6FD00F18796 /* Project object */;
+}
